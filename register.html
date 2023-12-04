@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css">
+        <script src="/bootstrap/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+        <style>
+            .formStyle{
+                box-shadow: 0 0 1rem 0 rgba(0, 0, 0, .2); 
+                border-radius: 5px;
+                background-color: rgba(255, 255, 255, .15);
+                backdrop-filter: blur(10px);
+            }
+        </style>
+    </head>
+    <body class="mx-3" style="background-image: url('./assets/login.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center;">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top px-5">
+                <a class="navbar-brand" href="/">
+                    <img style="border-radius: 50%;" src="data:image/png;base64,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" width="40px" height="40px" alt="workout-logo">
+                </a>
+                <h3 class="text-danger mt-2">Fitness <b class="text-white">App</b></h3>
+
+                <div class="collapse navbar-collapse d-flex flex justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item active">
+                            <a class="nav-link text-white" href="/login"><button class="btn btn-dark">Login</button></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="/registration"><button class="btn btn-dark">Register</button></a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="row">
+            <div class="col d-flex flex justify-content-center "  style="margin-top: 8%;">
+                <form action="/addRegisterData" method="post" class="formStyle" style="padding: 40px; width: 60%; border-radius: 4%;">
+                    <h2 class="mb-4 text-center" style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;"><b>REGISTRATION</b></h2>
+                    
+                    <label for="" class="text-white form-label ms-3">Full Name</label>
+                    <input class="form-control text-white ms-3" style="width: 84%; background-color: rgba(255, 255, 255, .15); border: rgba(255, 255, 255, .15);" type="text" name="fullname" placeholder="Enter your full name" id="">
+
+                    <label for="" class="text-white form-label ms-3">Email ID</label>
+                    <input class="form-control text-white ms-3" style="width: 84%; background-color: rgba(255, 255, 255, .15); border: rgba(255, 255, 255, .15);" type="email" name="email" placeholder="Enter your eg@gmail.com" id="">
+                    
+                    <label for="" class="text-white form-label ms-3">Phone Number</label>
+                    <input class="form-control text-white ms-3" style="width: 84%; background-color: rgba(255, 255, 255, .15); border: rgba(255, 255, 255, .15);" type="number" name="mobile" placeholder="Enter your phone number" id="">
+                    
+                    <label for="" class="text-white form-label ms-3">Password</label>
+                    <input class="form-control text-white ms-3" style="width: 84%; background-color: rgba(255, 255, 255, .15); border: rgba(255, 255, 255, .15);" type="password" name="password" placeholder="Enter your password" id="">
+                    <button class="btn mt-3" style="margin-left: 28%; border-radius: 12px; width: 90px; background-color: #075595;">Submit</button>
+                </form>
+            </div>
+
+            <div class="col" style="margin-top: 13%; margin-left: 3%;">
+                <h1 style="color: #075595; text-shadow: 5px 5px 5px #000000;  font-family: 'Oswald', sans-serif; font-size: 69px;  font-size: 60px;">STRONG AND DETERMINED, NO EXCUSES.</h1>
+                <p style="color: white; text-shadow: 0px 10px 10px #000000;">Don’t give up on your dreams, or your dreams will give up on you.The last three or four reps is what makes the muscle grow. This area of pain divides a champion from someone who is not a champion.</p>
+            </div>
+        </div>
+    </body>
+</html>

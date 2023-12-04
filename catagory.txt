@@ -1,0 +1,184 @@
+[
+    {
+        "Jackknife Situp" : {
+            "workout" : [
+                {
+                    "type" : "Chest and Shoulders",
+                    "set" : 3,
+                    "repeation" : 2
+                },
+                {
+                    "type" : "Quadriceps",
+                    "set" : 3,
+                    "repeation" : 3
+                },
+                {
+                    "type" : "Hip Flexors",
+                    "set" : 4,
+                    "repeation" : 4
+                },
+                {
+                    "type" : "Oblique Muscles",
+                    "set" : 2,
+                    "repeation" : 2
+                }
+            ]
+        }
+    },
+    {
+        "Planks" : {
+            "workout" : [
+                {
+                    "type" : "Forearm Plank",
+                    "set" : 3,
+                    "repeation" : 2
+                },
+                {
+                    "type" : "Side Plank",
+                    "set" : 4,
+                    "repeation" : 3
+                },
+                {
+                    "type" : "Plank Push-Up",
+                    "set" : 2,
+                    "repeation" : 4
+                },
+                {
+                    "type" : "Reach Plank",
+                    "set" : 2,
+                    "repeation" : 2
+                }
+            ]
+        }
+    },
+    {
+        "Squat" : {
+            "workout" : [
+                {
+                    "type" : "Split squat",
+                    "set" : 3,
+                    "repeation" : 2
+                },
+                {
+                    "type" : "Overhead squat",
+                    "set" : 2,
+                    "repeation" : 3
+                },
+                {
+                    "type" : "Jump squat",
+                    "set" : 3,
+                    "repeation" : 4
+                },
+                {
+                    "type" : "Box jump to squat",
+                    "set" : 4,
+                    "repeation" : 6
+                }
+            ]
+        }
+    },
+    {
+        "Barbell Bench Press" : {
+            "workout" : [
+                {
+                    "type" : "Close Grip Barbell Bench Press",
+                    "set" : 3,
+                    "repeation" : 2
+                },
+                {
+                    "type" : "Wide Grip Barbell Bench Press",
+                    "set" : 2,
+                    "repeation" : 3
+                },
+                {
+                    "type" : "Glute Bridge Dumbbell Bench PresS",
+                    "set" : 3,
+                    "repeation" : 4
+                },
+                {
+                    "type" : "Incline Barbell Bench Press",
+                    "set" : 4,
+                    "repeation" : 6
+                }
+            ]
+        }
+    },
+    {
+        "PushUps" : {
+            "workout" : [
+                {
+                    "type" : "Strict (Military) Push-Up",
+                    "set" : 3,
+                    "repeation" : 2
+                },
+                {
+                    "type" : "Wide Hands Push-Up",
+                    "set" : 2,
+                    "repeation" : 3
+                },
+                {
+                    "type" : "Triangle (Diamond) Push-Up",
+                    "set" : 3,
+                    "repeation" : 4
+                },
+                {
+                    "type" : "Pike Push-Up",
+                    "set" : 4,
+                    "repeation" : 6
+                }
+            ]
+        }
+    },
+    {
+        "PullUps" : {
+            "workout" : [
+                {
+                    "type" : "Dead Hang",
+                    "set" : 3,
+                    "repeation" : 2
+                },
+                {
+                    "type" : "Chest-to-Bar Pull-Up",
+                    "set" : 2,
+                    "repeation" : 3
+                },
+                {
+                    "type" : "L-Sit Pull-Up",
+                    "set" : 3,
+                    "repeation" : 4
+                },
+                {
+                    "type" : "One-Arm Pull-Up",
+                    "set" : 4,
+                    "repeation" : 6
+                }
+            ]
+        }
+    },
+    {
+        "Cable Woodchop" : {
+            "workout" : [
+                {
+                    "type" : "High-to-Low Cable Woodchop",
+                    "set" : 3,
+                    "repeation" : 2
+                },
+                {
+                    "type" : "Low-to-High Cable Woodchop",
+                    "set" : 2,
+                    "repeation" : 3
+                },
+                {
+                    "type" : "Standing Cable Woodchop",
+                    "set" : 3,
+                    "repeation" : 4
+                },
+                {
+                    "type" : "Kneeling Cable Woodchop",
+                    "set" : 4,
+                    "repeation" : 6
+                }
+            ]
+        }
+    }
+]
