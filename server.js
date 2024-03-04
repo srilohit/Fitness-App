@@ -110,6 +110,6 @@ app.get('/report', (req, res)=>{
     res.render('userReport', { workoutReport : 'Wait', user : userJwt.username, report : filteredReport });
 });
 
-app.listen(3900, ()=>{
-    console.log('server is running on 3900');   
+app.listen(process.env.PORT, ()=>{
+    console.log(`server is running on ${process.env.PORT}`);   
 });
